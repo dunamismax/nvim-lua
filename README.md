@@ -1,13 +1,13 @@
 # Neovim Configuration Guide
 
-This is a guide and cheat sheet for the Neovim configuration based on ThePrimeagen's `init.lua`.
+This is a guide and cheat sheet for my Neovim configuration.
 
 ## Installation
 
-1. **Clone the necessary repositories:**
+1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/ThePrimeagen/init.lua.git
+   git clone https://github.com/dunamismax/nvim-lua.git ~/.config/nvim
    ```
 
 2. **Install external dependencies:**
@@ -24,14 +24,7 @@ This is a guide and cheat sheet for the Neovim configuration based on ThePrimeag
      brew install deno
      ```
 
-3. **Copy the configuration:**
-   **Warning:** This will overwrite your existing Neovim configuration. Back it up first.
-
-   ```bash
-   cp -R init.lua/* ~/.config/nvim/
-   ```
-
-4. **Launch Neovim:**
+3. **Launch Neovim:**
    Open Neovim. The `lazy.nvim` plugin manager will automatically install all the plugins.
 
 ## Keybindings
@@ -117,7 +110,7 @@ This configuration uses `lazy.nvim` to manage plugins. Here are some of the key 
 - **[nvim-lspconfig](https://github.com/neovim/nvim-lspconfig):** Configures the built-in LSP client.
 - **[mason.nvim](https://github.com/williamboman/mason.nvim):** Manages LSP servers, DAP servers, linters, and formatters.
 - **[nvim-cmp](https://github.com/hrsh7th/nvim-cmp):** Autocompletion plugin.
-- **[harpoon](https://github.com/ThePrimeagen/harpoon):** File marking and navigation.
+- **[harpoon](https://github.com/dunamismax/harpoon):** File marking and navigation.
 - **[telescope.nvim](https://github.com/nvim-telescope/telescope.nvim):** Fuzzy finder.
 - **[nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter):** Syntax highlighting and code parsing.
 - **[conform.nvim](https://github.com/stevearc/conform.nvim):** Code formatting.

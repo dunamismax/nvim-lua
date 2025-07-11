@@ -37,8 +37,8 @@ local local_plugins = {
 	--	config = function() end,
 	--},
 	{
-		"ThePrimeagen/harpoon",
-        branch = "harpoon2",
+		"dunamismax/harpoon",
+        branch = "main",
 		dependencies = { "nvim-lua/plenary.nvim" },
 		config = function()
 			local harpoon = require("harpoon")
