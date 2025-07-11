@@ -1,5 +1,15 @@
 # Neovim Configuration Guide
 
+## Quick Installation
+
+To set up this Neovim configuration, run the following command in your terminal from the repository's root directory:
+
+```bash
+./install.sh
+```
+
+---
+
 This is a guide and cheat sheet for my Neovim configuration.
 
 ## Installation
